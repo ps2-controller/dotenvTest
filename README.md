@@ -1,6 +1,6 @@
-Testing how dotenv gets passed around folders.
+#Testing how dotenv gets passed around folders.
 
-Steps to reproduce:
+##Steps to reproduce:
 1. Clone repo
 2. From top-level directory, run `node indexjs`
 3. Output = secret key from `.env` file, which is our expected behavior
