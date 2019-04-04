@@ -2,7 +2,7 @@
 
 ## Steps to reproduce:
 1. Clone repo
-2. From top-level directory, run `node indexjs`
+2. From top-level directory, run `node index.js`
 3. Output = secret key from `.env` file, which is our expected behavior
 4. `cd src`
 5. node testing.js
