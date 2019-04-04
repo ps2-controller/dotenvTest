@@ -1,6 +1,5 @@
 require('dotenv').config();
-const key = process.env.dotenvTestKey;
-console.log(key);
-module.exports = {
-    key: key
-}
+let passer = require('./src/testing.js');
+const passedKey = passer.key;
+console.log(passedKey);
+

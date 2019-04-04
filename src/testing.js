@@ -1,3 +1,5 @@
-const topKey = require('./../index.js');
-let passedKey = topKey.key;
-console.log(passedKey);
+require('./../index.js')
+const key = process.env.dotenvTestKey;
+module.exports = {
+    key: key
+}
